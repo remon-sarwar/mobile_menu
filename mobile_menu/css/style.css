@@ -1,0 +1,81 @@
+
+
+
+/* buttom menu design css start */
+.mobile-menu-bg{
+    background-color: #333 !important;
+    box-shadow: 0px -2px 36px 0px rgba(0,0,0,0.16);
+-webkit-box-shadow: 0px -2px 36px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px -2px 36px 0px rgba(0,0,0,0.16);
+}
+.text-color {
+    color: #dee9d9;
+
+}
+.nav .active, .nav .active .text-color{
+    color: #064ee9;
+}
+
+.border-custom{
+    border-radius: 25px 25px 0px 0px;
+}
+
+/* icon and text padding start */
+.mobile-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+/* font size start */
+.mobile-menu ul li a{
+    font-size: 12px !important;
+}
+
+/* icon font size start*/
+.mobile-menu ul li i{
+    font-size: 20px !important;
+}
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .mobile-menu{
+        display: block;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .mobile-menu{
+        display: none;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .mobile-menu{
+        display: none;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .mobile-menu{
+        display: none;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .mobile-menu{
+        display: none;
+    }
+ }
